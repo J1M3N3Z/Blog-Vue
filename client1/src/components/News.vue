@@ -12,6 +12,9 @@
               <router-link to="/create" class="News-btn"
                 >Agregar Noticia <i class="bx bx-chevron-right"></i
               ></router-link>
+              <router-link to="/" class="News-btn"
+                >Inicio <i class="bx bx-chevron-right"></i
+              ></router-link>
             </div>
           </div>
         </div>

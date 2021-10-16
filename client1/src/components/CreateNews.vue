@@ -9,8 +9,8 @@
           >
             <div class="content">
               <h3>Noticias</h3>
-              <a href="#" class="News-btn">
-                News <i class="bx bx-chevron-right"> </i
+              <a href="/News" class="News-btn">
+                Volver <i class="bx bx-chevron-right"> </i
               ></a>
             </div>
           </div>
