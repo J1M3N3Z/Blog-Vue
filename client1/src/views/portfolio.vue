@@ -49,7 +49,7 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                     <div class="portfolio-wrap">
-                    <img src="../assets/img7.png" class="img-fluid" alt="">
+                    <img src="../assets/img7.jpg" class="img-fluid" alt="">
                     </div>
                 </div>
 
@@ -67,7 +67,7 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                     <div class="portfolio-wrap">
-                    <img src="../assets/img10.png" class="img-fluid" alt="">
+                    <img src="../assets/img10.jpg" class="img-fluid" alt="">
                     </div>
                 </div>
 

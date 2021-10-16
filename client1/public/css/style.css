@@ -218,10 +218,10 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(9, 135, 207, 0.5), rgba(0, 0, 0, 0.2)), url("../css/codensador.jpg") top center;
+  background: linear-gradient(rgba(9, 135, 207, 0.5), rgba(0, 0, 0, 0.2)), url("../css/condensador.jpg") top center;
   background-size:cover;
   position: relative;
-  margin-bottom: -90px;
+  margin-bottom: -270px;
 }
 #hero .hero-container {
   position: absolute;
@@ -370,7 +370,6 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../css/about-bg.jpg") center center no-repeat;
   background-size: cover;
   padding: 60px 0;
   position: relative;
@@ -454,6 +453,10 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services{
+  background: url(../css/about-bg.jpg) no-repeat;
+  margin-bottom: -70px;
+}
 .services .icon-box {
   padding: 30px;
   position: relative;
@@ -478,7 +481,7 @@ section {
   text-decoration: none;
 }
 .services .icon-box:hover::before {
-  background: #67b0d1;
+  background: #8486f3;
   top: 0;
   border-radius: 0px;
   text-decoration: none;
@@ -516,10 +519,12 @@ section {
 # News
 --------------------------------------------------------------*/
 .News {
-  background: url("../css/about-bg.jpg") center center no-repeat;
+  background: url("../css/cta-bg.jpg") center center no-repeat;
   background-size: cover;
   padding: 60px 0;
   position: relative;
+  margin-top: 50px;
+  margin-bottom: -60px;
 }
 .News::before {
   content: "";
@@ -534,6 +539,22 @@ section {
 .News .container {
   position: relative;
   z-index: 10;
+}
+.News .News-btn{
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid rgba(3, 61, 56, 0.5);
+  color: #fff;
+  text-decoration: none;
+  background-color: #5b8be4;
 }
 .News .content {
   padding: 30px 30px 30px 0;
@@ -637,6 +658,7 @@ section {
 --------------------------------------------------------------*/
 .counts {
   padding-bottom: 30px;
+  margin-bottom: -30px;
 }
 .counts .count-box {
   padding: 30px;
@@ -716,6 +738,9 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio{
+  margin-bottom: -30px;
+}
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -784,6 +809,8 @@ section {
 --------------------------------------------------------------*/
 .team{
   background: url("../css/about-bg.jpg") center center no-repeat;
+  margin-bottom: -60px;
+  margin-top: -70px;
 }
 .team .member {
   text-align: center;
@@ -857,6 +884,7 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 80px;
+  margin-bottom: -150px;
 }
 .contact .info-box {
   color: #444444;

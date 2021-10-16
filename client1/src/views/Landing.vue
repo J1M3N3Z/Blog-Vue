@@ -13,6 +13,23 @@
       </section>
       <!-- End Services Section -->
 
+      <!-- ======= News Section ======= -->
+      <section id="News" class="News">
+        <div class="container" data-aos="zoom-in">
+              <div class="text-center">
+                <h3>Noticias</h3>
+              <div class="page">
+              <router-link to="/News" class="News-btn"
+              >Ir a Noticias <i class="bx bx-chevron-right"></i
+              ></router-link>
+        </div>
+            </div>
+        </div>
+        
+      </section>
+
+      <!-- End News Section -->
+
       <!-- ======= Counts Section ======= -->
       <section id="counts" class="counts">
         <counts></counts>
